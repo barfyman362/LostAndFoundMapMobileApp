@@ -234,7 +234,7 @@ public class CreateAdvertActivity extends AppCompatActivity {
         placePickerLauncher.launch(intent);
     }
 
-    // gets the user's current phone/emulator location
+    // gets the user's current location
     private void getCurrentLocation() {
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED) {

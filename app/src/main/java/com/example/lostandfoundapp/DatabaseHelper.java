@@ -26,7 +26,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String COL_IMAGE = "image";
     public static final String COL_POSTED_TIME = "posted_time";
 
-    // task 9.1P map fields
+    // Latitude and longitude map fields added
     public static final String COL_LATITUDE = "latitude";
     public static final String COL_LONGITUDE = "longitude";
 
